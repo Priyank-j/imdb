@@ -1,0 +1,23 @@
+POST     http://localhost:8088/SearchMovieByTitle
+
+title:murder
+
+POST     http://localhost:8088/SearchMovieByTitle
+
+title:murder
+
+POST http://localhost:8088/SearchMovie
+
+genre: Crime
+imdbId:tt0405507
+year:2004
+
+
+ POST http://localhost:8088/UpdateGenres
+imdbId:tt0405507
+genre: Crime, fun
+
+
+ POST http://localhost:8088/UpdateRating
+ imdbId:tt0405507
+rated: 5.5
